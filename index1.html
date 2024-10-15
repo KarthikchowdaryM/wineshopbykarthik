@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wine Shop</title>
+  <link rel="stylesheet" href="styles1.css">
+  <script defer src="script1.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo"><a href="#home">Wine Shop</a></h1>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#brands">Brands Available</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Our Wine Shop</h2>
+      <p>Your one-stop destination for quality wines.</p>
+    </div>
+  </section>
+
+  <!-- Image Slider -->
+  <div class="image-slider">
+    <img src="ms.jpg" alt="Wine Image 1" class="slider-image active">
+    <img src="rk.jpg" alt="Wine Image 2" class="slider-image">
+    <img src="pandu.jpg" alt="Wine Image 3" class="slider-image">
+    <img src="vj.jpg" alt="Wine Image 4" class="slider-image">
+    <img src="mk.jpg" alt="Wine Image 5" class="slider-image">
+  </div>
+
+  <!-- Brands Available Section -->
+  <section id="brands" class="brands">
+    <div class="container">
+      <h2>Brands Available</h2>
+      <p>
+        <i class="fas fa-wine-glass"></i> Discover our selection of fine wines from around the world.
+      </p>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section id="location" class="location">
+    <div class="container">
+      <h2>Location</h2>
+      <p>We are located at 123 Wine Street, Vineland. Visit us for the best wine selection!</p>
+      <a href="https://www.google.com/maps" target="_blank">View on Google Maps</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="mobile" placeholder="Your Mobile Number" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Wine Shop. All Rights Reserved.
+      Designed And Developed By Karthik Chowdary
+    </p>
+  </footer>
+</body>
+</html>
